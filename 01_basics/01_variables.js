@@ -4,7 +4,7 @@ let AccountPassword = "123456"
 let AccountCity = "hydrabaad"
 let AccountState
 
-// AccountId = 11756 // Not Allowed
+// AccountId = 11756 // Not Allowed because this is assiggned by constant 
 
 AccountEmail = "hk97@google.com"
 AccountPassword = "09876"
