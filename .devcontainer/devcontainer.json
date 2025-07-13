@@ -22,11 +22,11 @@
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight"
 			],
-			"settings": {
+			/*"settings": {
 				"editor.fontSize": 12,
 				"terminal.integrated.fontSize": 12,
 				"editor.wordWrap": "on"
-			}
+			}*/
 			
 		}
 		
