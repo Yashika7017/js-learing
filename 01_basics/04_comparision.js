@@ -1,41 +1,41 @@
-// // Comparision and Equality check they both are different .
-// // (===) this operator check first datatype and then compare value but (==) this is only compare the values without check datatype
+// Comparision and Equality check they both are different .
+// (===) this operator check first datatype and then compare value but (==) this is only compare the values without check datatype
 
-// console.log(null < 2);
-// console.log(null == 2);
-// console.log(null <= 2);
+console.log(null < 2);
+console.log(null == 2);
+console.log(null <= 2);
 
-// console.log(undefined < 2);
-// console.log(undefined == 2);
-// console.log(undefined <= 2);
+console.log(undefined < 2);
+console.log(undefined == 2);
+console.log(undefined <= 2);
 
-// // these type of comparisions are avoid because they are create the confusion and time weasting
+// these type of comparisions are avoid because they are create the confusion and time weasting
 
-// let num1 = "1"
-// let num2 = 3
-// let sum = parseFloat(num1 + num2);
-// console.log(sum);
+let num1 = "1"
+let num2 = 3
+let sum = parseFloat(num1 + num2);
+console.log(sum);
 
-// console.log(parseInt("1"-2));
-// console.log(parseInt(1 +"2" * 2));
+console.log(parseInt("1"-2));
+console.log(parseInt(1 +"2" * 2));
 
-// console.log(parseInt(1 + 2 + "2"));
+console.log(parseInt(1 + 2 + "2"));
 
-// // ------}{-------}{-------}{-----}   ARRAY, OBJECT, FUNCTION  {-------}{-------}{------}{--------}
+// ------}{-------}{-------}{-----}   ARRAY, OBJECT, FUNCTION  {-------}{-------}{------}{--------}
 
-// let arr = ["Apple", "Kiwi", "Orange", "Papaya", "Guava", "Banana"];
-// console.log(arr);
+let arr = ["Apple", "Kiwi", "Orange", "Papaya", "Guava", "Banana"];
+console.log(arr);
    
-// let obj = {
-//     Heros: "Ramiro",
-//     Heroens : "Mexico Kimono",
-// }
-// console.log(obj);
+let obj = {
+    Heros: "Ramiro",
+    Heroens : "Mexico Kimono",
+}
+console.log(obj);
 
-// const myFun = function(){
-//     console.log("hello shiva");
+const myFun = function(){
+    console.log("hello shiva");
     
-// }
+}
 
 // ++++++++++++++++++++++++++++++++++++{     MEMORY    } ++++++++++++++++++++++++++++++++++++++
    
