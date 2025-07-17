@@ -25,3 +25,5 @@ console.log(Math.round(1391.11));
 console.log(Math.ceil(3.1));
 console.log(Math.floor(3.1));
 console.log(Math.sqrt(25));
+
+
