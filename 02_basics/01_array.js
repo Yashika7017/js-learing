@@ -24,5 +24,18 @@ console.log(myArr2.includes(9));
 console.log(myArr2.indexOf(1));
 console.log(myArr2.indexOf(9));
 
+///////////////////////////////////////   SLICE and SPLICE  /////////////////////////////////////
+
+const sli1 = ["yellow", "orange", "red", "purple", "baby-pink","white"];
+let sli2 = sli1.slice(1,4);
+console.log(sli1);
+console.log(sli2); // slice orignal array se koi chhed chhad nhi krta
+
+const spli1 = ["yellow", "orange", "red", "purple", "baby-pink","white"];
+let spli2 = spli1.splice(1,4);
+console.log(spli1);
+console.log(spli2); // splice orignal array ko hi change/manipulate kr deta hai
+
+
 
 
