@@ -31,18 +31,19 @@ myObject.greeting = function(){
 
 console.log(typeof myObject.greeting())
 
+
 const collage_key_user = {}
 
 collage_key_user.id = "10386"
 collage_key_user.name = "Yashika Varshney"
 collage_key_user.isLoggedIn = false 
 
-collage_key_user.id = "10387"
-collage_key_user.name = "Ram"
-collage_key_user.isLoggedIn = true 
+// collage_key_user.id = "10387"
+// collage_key_user.name = "Ram"
+// collage_key_user.isLoggedIn = true 
 
-console.log(typeof collage_key_user);
-  
+console.log(collage_key_user);
+
 const regular_user = {
     email : "yashika@google.com",
     userId : "1111",
@@ -59,7 +60,6 @@ console.log(add);
 
 const addition = {...collage_key_user, ...regular_user}
 // console.log(addition);
-
 
 const users = [
     { 
