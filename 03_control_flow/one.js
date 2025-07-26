@@ -19,6 +19,18 @@ if (2 === "2"){
 }
 
 
+
+let my_num = (99);
+if (my_num % 2 == 0) {
+    console.log("even", my_num);
+    
+}else{
+    console.log("odd", my_num);
+    
+}
+
+
+
 ////////////////////////////////////  NESTED IF ////////////////////////////////////
 
 const salary = 45000;
