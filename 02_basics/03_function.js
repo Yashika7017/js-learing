@@ -83,3 +83,16 @@ console.log(handel_array(my_new_array));
 //// pass the array in function :-->
 console.log(handel_array([200, 900, 4999, 9999, 394]));
 
+///// CHECH EVEN or ODD :-->
+
+function my_num (num){
+    if (num % 2 == 0) {
+        console.log(`this is an even number :- ${num}`);
+        
+    }else{
+        console.log(`${num} :->  this is an odd number  `);
+    }
+    
+    
+    
+}my_num(55)
