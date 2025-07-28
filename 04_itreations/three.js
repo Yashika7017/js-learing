@@ -35,13 +35,24 @@
 // } // object is not defined in forof loop
 
 
-const myObj = {
-    js : "javaScript",
-    Cpp : "c++",
-    rb : "ruby",
+// const myObj = {
+//     js : "javaScript",
+//     Cpp : "c++",
+//     rb : "ruby",
 
-}
-for (const [key,value] in myObj) {
-    console.log([key,value]);
+// }
+// for (const key in myObj) {
+//     console.log(myObj[key]);
+    
+// }
+
+// for (const key in myObj) {
+//     console.log(`${key} shortcut of ${myObj[key]}`);
+    
+// }
+
+const programming = ["js","ruby","c++", "c","java","python"]
+for (const key in programming){
+    console.log(key);
     
 }
