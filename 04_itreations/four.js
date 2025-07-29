@@ -8,5 +8,16 @@
 
 
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const new_num = num.filter( (items) => items > 2);
+const new_num = num.filter( (items) => {
+    return items > 2
+} );
 console.log(new_num);
+
+const my_num = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const hi = my_num.filter( (i) => {
+    return i > 2;
+} );
+console.log(hi);
+
+
+
