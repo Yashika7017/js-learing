@@ -70,10 +70,43 @@ const newNum = myNum.map( (i) => {
 // },0 )
 // console.log(newValue);
 
-const value = [1, 1, 1, 1];
-const newValue = value.reduce( (acc, currval) => {
-    console.log(`acc ${acc} and currval ${currval}`);
+
+// const value = [1, 1, 1, 1];
+// const newValue = value.reduce( (acc, currval) => {
+//     console.log(`acc ${acc} and currval ${currval}`);
     
-    return acc + currval 
-},0 )
-console.log(newValue);
+//     return acc + currval 
+// },0 )
+// console.log(newValue);
+
+const myValue = [
+    {
+        courseName : "java",
+        price : 999
+    },
+    {
+        courseName : "Data-Science",
+        price : 1999
+    },
+    {
+        courseName : "Mobile-Application",
+        price : 2999
+    },
+    {
+        courseName : "Artificial Intellijence",
+        price : 5898
+    },
+    {
+        courseName : "JavaScript",
+        price : 5999
+    }
+    , 
+    {
+        courseName : "BackEnd",
+        price : 12999
+    }
+];
+const total = myValue.reduce( (acc, currval) => acc + currval ,0 )
+console.log(total);
+
+
