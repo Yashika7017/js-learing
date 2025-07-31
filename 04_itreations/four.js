@@ -1,23 +1,23 @@
-// const coding = ["js", "java", "c++", "python", "SQL", "My SQL", "ruby", "c#"];
+const coding = ["js", "java", "c++", "python", "SQL", "My SQL", "ruby", "c#"];
 
-// const value = coding.forEach ( (n) => {
-//      console.log(n);
-//      return n ;
-// });
-// console.log(value);
+const value = coding.forEach ( (n) => {
+     console.log(n);
+     return n ;
+});
+console.log(value);
 
 
-// const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// const new_num = num.filter( (items) => {
-//     return items > 2
-// } );
-// console.log(new_num);
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const new_num = num.filter( (items) => {
+    return items > 2
+} );
+console.log(new_num);
 
-// const my_num = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// const hi = my_num.filter( (i) => {
-//     return i > 2;
-// } );
-// console.log(hi);
+const my_num = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const hi = my_num.filter( (i) => {
+    return i > 2;
+} );
+console.log(hi);
 
 //////////////////////////////////////// PRACTICE :->  
 
@@ -53,33 +53,35 @@ const newNum = myNum.map( (i) => {
 
 /////////////////////////////  CHAINING METHOD :-->
 
-// const num = [1, 2, 3, 4, 5,6, 7, 8, 9, 10]
-// const new_num = num
-// .map( (n) => {return n * 10} )
-// .map( (n) => {return n + 1} )
-// .filter( (n) => {return n >= 20} )
-// console.log(new_num);
+const val = [1, 2, 3, 4, 5,6, 7, 8, 9, 10]
+const new_val = val
+.map( (n) => {return n * 10} )
+.map( (n) => {return n + 1} )
+.filter( (n) => {return n >= 20} )
+console.log(new_num);
 
 /////////////////////////////////////  reduce   /////////////////////// 
 
-// const value = [1, 1, 1, 1];
-// const newValue = value.reduce(function (acc, currval) {
-//     console.log(`acc ${acc} and currval ${currval}`);
+const value1 = [1, 1, 1, 1];
+const newValue1 = value1.reduce(function (acc, currval) {
+    console.log(`acc ${acc} and currval ${currval}`);
     
-//     return acc + currval 
-// },0 )
-// console.log(newValue);
+    return acc + currval 
+},0 )
+console.log(newValue1);
 
 
-// const value = [1, 1, 1, 1];
-// const newValue = value.reduce( (acc, currval) => {
-//     console.log(`acc ${acc} and currval ${currval}`);
+const value2 = [1, 1, 1, 1];
+const newValue2 = value.reduce( (acc, currval) => {
+    console.log(`acc ${acc} and currval ${currval}`);
     
-//     return acc + currval 
-// },0 )
-// console.log(newValue);
+    return acc + currval 
+},0 )
+console.log(newValue2);
 
-const myValue = [
+// ////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  SHOPPING_CARD   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+const shoppingCard = [
     {
         courseName : "java",
         price : 999
@@ -106,7 +108,11 @@ const myValue = [
         price : 12999
     }
 ];
-const total = myValue.reduce( (acc, currval) => acc + currval ,0 )
+const total = shoppingCard.reduce( (acc, courseName) => {
+    // console.log(`acc:- ${acc} + price:- ${price}`);
+    
+    return acc + courseName.price 
+},0);
 console.log(total);
 
 
