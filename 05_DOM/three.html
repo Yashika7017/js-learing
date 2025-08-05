@@ -13,11 +13,28 @@
 </body>
 <script>
     function addLanguage(langName) {
-        const li = document.createElement('li')    
+        const li = document.createElement('li');  
         li.innerHTML = `${langName}`
-        document.querySelecter('.li')
+        document.querySelector('.language').
         appendChild(li)
     }
+    addLanguage("Ruby")
+    addLanguage("Python")
     
+    function addOptiLanguage (langName) {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage("Java")
+
+    // // ><-><-><-><-><-><-><-><-><->  EDIT VALUES  <-><-><-><-><-><-><-><-><-><-><-><
+
+    const editval = document.querySelector("li:nth-Child(2)")
+    // editval.innerHTML = "C++"
+    const newLi = document.createElement('li')
+    newLi.textContent = "C++"
+    editval.replaceWith(newLihh)
+
 </script>
 </html>
