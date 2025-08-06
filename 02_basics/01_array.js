@@ -58,6 +58,17 @@ let my_dream_list = [...my_dream_job_place, ...my_job_roles]; // this is a sprea
 
 console.log(my_dream_list);
 
+///////////  2-D ARRAY:-->
+
+const array = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(array[[0][0]]);
+console.log(array[[1][0]]);
+console.log(array[[2][0]]);
+
 
 
 
