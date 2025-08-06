@@ -116,3 +116,4 @@ const total = shoppingCard.reduce( (acc, courseName) => {
 console.log(total);
 
 
+
