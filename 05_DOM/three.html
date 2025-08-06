@@ -27,6 +27,8 @@
         document.querySelector('.language').appendChild(li)
     }
     addOptiLanguage("Java")
+    addOptiLanguage("MySQL")
+    addOptiLanguage("C#")
 
     // // ><-><-><-><-><-><-><-><-><->  EDIT VALUES  <-><-><-><-><-><-><-><-><-><-><-><
 
@@ -34,7 +36,13 @@
     // editval.innerHTML = "C++"
     const newLi = document.createElement('li')
     newLi.textContent = "C++"
-    editval.replaceWith(newLihh)
+    editval.replaceWith(newLi)
+
+    // //><-><-><-><-><-><-><----> REMOVE VALUES   <----><-><-><-><-><-><-><-><-><-><-><
+
+    const lastVal = document.querySelector('li:last-child')
+    console.log(lastVal.remove())
+
 
 </script>
 </html>
