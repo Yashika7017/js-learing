@@ -3,7 +3,7 @@ const body = document.querySelector('body');
 
 buttons.forEach( (button) => {
     console.log(button);
-    button.addEventListener('click', function (e) {
+    button.addEventListener('click', (e) => {
         console.log(e);
         console.log(e.target);
         if (e.target.id === 'yellow') {
