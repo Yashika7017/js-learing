@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(121, 122, 122);
+}
+#cal{
+    
+    margin: 10px 0px 55px 95px;
+    padding: 5px;
+    width: 110px;
+    border-radius: 10px;
+    font-size: large;
+}
+#Height{
+    margin: 10px 0px 0px 15px;
+    padding: 3px;
+    border-radius: 5px;
+}
+#Weight{
+    margin: 12px 0px 0px 15px;
+    padding: 3px;
+    border-radius: 5px;
+}
+#Weight-guide{
+    margin-left: 85px;
+    margin-top: -10px;
+}
+#result{
+    color: rgb(255, 255, 255);
+    font-size: 33px;
+    margin-left: 55px;
+    margin-top: -20px;
+}
