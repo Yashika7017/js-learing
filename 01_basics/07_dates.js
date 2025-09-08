@@ -8,7 +8,7 @@ console.log(myDate.toISOString());
 console.log(myDate.toLocaleDateString());
 console.log(myDate.toTimeString());
 
- let createdDate = new Date(17,06,2025)
+ let createdDate = new Date(17,6,2025)
 console.log(createdDate.toLocaleString());
 
 let timeStamp = Date.now()
